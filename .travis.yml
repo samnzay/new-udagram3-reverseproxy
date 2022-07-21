@@ -13,7 +13,7 @@ before_script:
 script:
   - docker --version # print the version for logging
   - docker build -t new-reverseproxy .
-  - docker tag new-reverseproxy samnzay/new-reverseproxy:v1
+  - docker tag new-reverseproxy samnzay/new-reverseproxy:v2
 
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
 after_success:
